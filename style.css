@@ -1,0 +1,120 @@
+body{
+    background-color: #5c6d7c;
+    padding: 0;
+    margin: 0;
+}
+.mycanvas{
+   background-color:#96c859 ; 
+   height: 350px;
+   width: 350px;
+   border-radius: 50%;
+   position: relative;
+   /* margin:auto; */
+   top: 50px;
+   bottom: 10px;
+left: 380px;
+right: 0;
+border: 8px dashed white;
+
+}
+.container{
+    position: relative;
+    animation: rng 3s infinite;
+
+}
+@keyframes rng{
+    50%{
+        transform: rotate(30deg);
+    }
+}
+.bell1, .bell2{
+   height: 0;
+    width: 60px;
+    border-bottom: 70px solid #ffd260;
+    border-right:12px solid transparent;
+    border-left: 12px solid transparent;
+}
+.bell1{
+    position: relative;
+    top: 150px;
+    left: 90px;
+    transform: rotate(25deg);
+}
+.bell2{
+  position: relative;
+    top: 80px;
+    left: 170px;
+    transform: rotate(-25deg);
+}
+.top{
+    width: 60px;
+    height: 30px;
+    background-color: #ffd260;
+    position: relative;
+    bottom: 26px;
+    border-radius: 30px 30px 0 0; 
+}
+.bottom{
+    height: 0;
+    width: 82px;
+    border-bottom: 20px solid #ffcc4d;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: relative;
+    top: 38px;
+    right: 23px;
+
+
+}
+.b{
+   background-color: #ffd260;
+   height: 15px;
+   width: 30px;
+    position: relative;
+    top: 37px;
+    border-radius: 0 0 15px 15px;
+    animation: ring 3s infinite;
+}
+@keyframes ring {
+    50%{
+       transform: translate(25px); 
+    }
+}
+.bow{
+   position: relative;
+   left:160px ;
+   bottom: 30px;
+   transform: rotate(-8deg);
+
+}
+.b1{
+    height: 25px;
+width: 0;
+border-right: 40px solid #e95840;
+border-top:15px solid transparent ;
+border-bottom: 15px solid transparent;
+position: relative;
+bottom:17px;
+left: 25px;
+
+}
+.b2{
+    height: 25px;
+width: 0;
+border-left: 40px solid #e95840;
+border-top:15px solid transparent ;
+border-bottom: 15px solid transparent;
+position: relative;
+bottom: 72px;
+right: 30px;
+}
+.b3{
+    background-color: #e4391b;
+    height: 40px;
+    width: 35px;
+    border-radius: 15px ;
+    position: relative;
+    bottom: 120px;
+
+
+}
